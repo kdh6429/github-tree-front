@@ -6,6 +6,7 @@ import GithubTreeView from "./components/GithubTreeView";
 import GtHubTreePreview from "./components/GtHubTreePreview";
 import GithubViewOption from "./components/GithubViewOption";
 import GithubURLInput from "./components/GithubURLInput";
+import Adfit from "./components/Adfit";
 
 function App() {
   return (
@@ -16,8 +17,14 @@ function App() {
           <h1>Github Tree Generator</h1>
         </div>
       </div> */}
-      <div className="ad-wrap">
-        ad will be placed on here
+      <div className="title-wrap">
+        <div className="left-wrap">
+          <div className="main-title">Github Tree Generator</div>
+          <div className="sub-title">Use the generator to describe your project structure in README</div>
+        </div>
+        <div className="right-wrap">
+          <Adfit unit="DAN-gEbGkxvlZrHygDsr" width={320} height={100}/>
+        </div>
       </div>
       <div>
         <GithubURLInput/>
@@ -40,6 +47,9 @@ function App() {
         <GithubViewOption/>
       </div>
     </RecoilRoot>
+    <div className="foot-wrap">
+      <Adfit unit="DAN-FgcFlzn7EUQlAk0m" width={728} height={90}/>
+    </div>
     </div>
   )
 }

@@ -116,7 +116,6 @@ const dummyItem = {fold: true,path: "loading...", type: "loading"}
 const failItem = {fold: true,path: "Fail to load", type: "loading"}
 const getTreeData = (url) => {
   return fetchTreeData(url).then( data => {
-    console.log( "data", data);
     if( !Array.isArray(data)) {
       data = [failItem];
     };
@@ -151,7 +150,6 @@ const fetchTreeData = async(url) => {
         },
       body: JSON.stringify({ url: url})
   };
-  console.log( "process.env.REACT_APP_URL", process.env.REACT_APP_URL);
   return fetch(process.env.REACT_APP_URL, requestOptions)
   //return fetch(process.env.REACT_APP_URL)
     .then( resp => {
