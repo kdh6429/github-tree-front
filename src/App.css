@@ -1,3 +1,109 @@
 .App {
+  font-family: Roboto Mono,Lucida Sans Typewriter,Lucida Console,monaco,Courrier,monospace;
+  font-size: .85em;
+}
+
+/* .MuiTreeItem-root.Mui-selected > .MuiTreeItem-content .MuiTreeItem-label {
+  background-color: transparent !important;
+} */
+
+.title {
   text-align: center;
 }
+
+.ad-wrap {
+  width: 728px;
+  height: 90px;
+  background-color: chocolate;
+  margin: auto;
+  margin-bottom: 0.4rem;
+}
+.contents-wrap {
+  display: flex;
+}
+
+.controller-wrap,
+.viwer-wrap {
+  width: 50%;
+  padding: 1rem;
+  padding-top: 0rem;
+  display: flex;
+  display: block;
+}
+
+.controller-wrap {
+  background-color: beige;
+}
+
+.viwer-wrap {
+  background-color: rgb(178, 198, 199);
+  background-color: rgba(0,0,0,.05);
+  display: block;
+  -webkit-text-size-adjust: none;
+  overflow-x: auto;
+  white-space: pre;
+}
+
+.controller,
+.viwer {
+  overflow-y: scroll;
+  height: 25rem;
+  border: solid 0.1rem gray;
+}
+.input-wrap {
+  margin: auto;
+  padding: 1rem;
+  background-color: #f1e0e0;
+}
+
+.input-wrap input {
+  width: 28rem;
+  margin: auto;
+  padding: auto;
+  font-size: 1rem;
+  padding: 0.3rem;
+}
+.input-wrap button {
+  width: 6rem;
+  margin: auto;
+  padding: auto;
+  font-size: 1rem;
+  padding: 0.3rem;
+  margin-left: 0.3rem;
+}
+
+
+
+.preview-wrap {
+  position: relative;
+}
+.preview-wrap  .copy-label {
+  position: absolute;
+  right: 0;
+  background-color: rgb(70, 86, 177);
+  color: white;
+  font-size: 0.8rem;
+  padding: 0.2rem;
+  cursor: pointer;
+}
+.preview-wrap  .copy-label.active {
+  background-color: darkred;
+}
+
+
+.option-wrap {
+  /* background-color: slategrey; */
+  padding: 1rem;
+  text-align: center;
+}
+.option-wrap input {
+  margin-left: 2rem;
+}
+
+.option-wrap input:last-child {
+  margin-left: 0rem;
+}
+.option-wrap .space-label {
+  margin-left: 2rem;
+}
+
