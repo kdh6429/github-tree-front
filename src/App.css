@@ -1,6 +1,7 @@
 .App {
   font-family: Roboto Mono,Lucida Sans Typewriter,Lucida Console,monaco,Courrier,monospace;
   font-size: .85em;
+  min-width: 900px;
 }
 
 /* .MuiTreeItem-root.Mui-selected > .MuiTreeItem-content .MuiTreeItem-label {
@@ -143,4 +144,7 @@
 .foot-wrap {
   width: 728px;
   margin: auto;
+}
+@media screen and (max-width: 768px) { 
+  .foot-wrap { display: none; } 
 }
