@@ -147,6 +147,14 @@
 }
 @media screen and (max-width: 900px) { 
   .foot-wrap { display: none; } 
-  .title-wrap .right-wrap  { display: none; } 
-  .title-wrap .left-wrap { width:100%; }
+  /* .title-wrap .right-wrap  { display: none; } 
+  .title-wrap .left-wrap { width:100%; } */
+  .title-wrap .left-wrap .main-title { 
+    line-height: 100px;
+    font-size: 1.5rem;
+    padding-left: 10px;
+  }
+  .title-wrap .left-wrap .sub-title {
+    display: none;
+  }
 }
