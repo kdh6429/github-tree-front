@@ -23,7 +23,7 @@ function App() {
           <div className="sub-title">Use the generator to describe your project structure in README</div>
         </div>
         <div className="right-wrap">
-          <Adfit unit="DAN-gEbGkxvlZrHygDsr" width={320} height={100}/>
+          {/* <Adfit unit="DAN-gEbGkxvlZrHygDsr" width={320} height={100}/> */}
         </div>
       </div>
       <div>
@@ -47,9 +47,9 @@ function App() {
         <GithubViewOption/>
       </div>
     </RecoilRoot>
-    <div className="foot-wrap">
+    {/* <div className="foot-wrap">
       <Adfit unit="DAN-FgcFlzn7EUQlAk0m" width={728} height={90}/>
-    </div>
+    </div> */}
     </div>
   )
 }
